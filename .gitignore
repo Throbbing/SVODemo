@@ -1,0 +1,7 @@
+/Release/*
+/Debug/*
+DeferredPS0.hlsl
+DeferredPS1.hlsl
+DeferredVS.hlsl
+DeferredShading.h
+DeferredShading.cpp
