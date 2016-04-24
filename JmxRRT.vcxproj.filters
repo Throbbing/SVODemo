@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="TinyXML">
+      <UniqueIdentifier>{9ae0e820-34aa-482b-a995-64a3a7a6ded5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JmxRCore">
+      <UniqueIdentifier>{6490a63d-34f5-43c0-93e6-3a693a61ecdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JmxRCore\JmxRPublic">
+      <UniqueIdentifier>{afdca703-2aca-4caf-9156-a513d09694ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JmxRCore\JmxRPublic\Math">
+      <UniqueIdentifier>{77756d6a-3dd7-4e7e-9a8a-5a699cc064d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JmxRCore\JmxRPublic\Scene">
+      <UniqueIdentifier>{fdf4258f-30af-4ccb-99ac-99a3481dd0bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JmxRCore\JmxRPublic\Mesh">
+      <UniqueIdentifier>{d7b91722-7cc6-43a7-8ce7-609f99c5169b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL">
+      <UniqueIdentifier>{90208711-fa3b-46d1-8925-6b2b253d3895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\SVO">
+      <UniqueIdentifier>{cbc5b06d-8722-4f64-8dd0-fea3b3ee955c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\SVO\Voxel">
+      <UniqueIdentifier>{83545e03-dde6-4016-8c8d-a434e2da5679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\SVO\Visual">
+      <UniqueIdentifier>{ae3417f7-efcc-4240-b98b-74d2d4c3e5b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TinyObjLoader">
+      <UniqueIdentifier>{4de2250b-a3fa-424b-8bc4-96931e312ffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JmxRCore\JmxRRT">
+      <UniqueIdentifier>{9ce53374-bbf3-4baf-8aec-fb635a73e34d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JmxRCore\JmxRRT\Demo">
+      <UniqueIdentifier>{3581fb03-29b2-467d-98ac-ad618decb868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JmxRCore\JmxRRT\Demo\SVO">
+      <UniqueIdentifier>{7031e987-3aec-4bf8-8620-59fe36cc9d36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JmxRCore\JmxRRT\Demo\SVO\ConeTracing">
+      <UniqueIdentifier>{a4c99153-41a0-4e2d-ad98-382c12017106}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Timer.cpp">
+      <Filter>JmxRCore\JmxRPublic</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>JmxRCore\JmxRPublic\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>JmxRCore\JmxRPublic\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>JmxRCore\JmxRPublic\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>JmxRCore\JmxRPublic\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="JmxRMesh.cpp">
+      <Filter>JmxRCore\JmxRPublic\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>JmxRCore\JmxRPublic\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneParser.cpp">
+      <Filter>JmxRCore\JmxRPublic\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="源.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXDemo.cpp">
+      <Filter>JmxRCore\JmxRRT\Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="SVOUti.cpp">
+      <Filter>JmxRCore\JmxRRT\Demo\SVO\ConeTracing</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DUti.cpp">
+      <Filter>JmxRCore\JmxRRT</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>JmxRCore\JmxRRT</Filter>
+    </ClCompile>
+    <ClCompile Include="SVODemo.cpp">
+      <Filter>JmxRCore\JmxRRT\Demo\SVO</Filter>
+    </ClCompile>
+    <ClCompile Include="Sponza.cpp">
+      <Filter>JmxRCore\JmxRRT\Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="tiny_obj_loader.cc">
+      <Filter>TinyObjLoader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="JmxR.h">
+      <Filter>JmxRCore\JmxRPublic</Filter>
+    </ClInclude>
+    <ClInclude Include="JmxRConfig.h">
+      <Filter>JmxRCore\JmxRPublic</Filter>
+    </ClInclude>
+    <ClInclude Include="JmxRDemo.h">
+      <Filter>JmxRCore\JmxRPublic</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>JmxRCore\JmxRPublic</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>JmxRCore\JmxRPublic\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>JmxRCore\JmxRPublic\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>JmxRCore\JmxRPublic\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>JmxRCore\JmxRPublic\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>JmxRCore\JmxRPublic\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="JmxRMesh.h">
+      <Filter>JmxRCore\JmxRPublic\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>JmxRCore\JmxRPublic\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneParser.h">
+      <Filter>JmxRCore\JmxRPublic\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny_obj_loader.h">
+      <Filter>TinyObjLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXDemo.h">
+      <Filter>JmxRCore\JmxRRT\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="SVOUti.h">
+      <Filter>JmxRCore\JmxRRT\Demo\SVO\ConeTracing</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DUti.h">
+      <Filter>JmxRCore\JmxRRT</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>JmxRCore\JmxRRT</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJMesh.h">
+      <Filter>JmxRCore\JmxRPublic\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DMesh.h">
+      <Filter>JmxRCore\JmxRRT</Filter>
+    </ClInclude>
+    <ClInclude Include="SVODemo.h">
+      <Filter>JmxRCore\JmxRRT\Demo\SVO</Filter>
+    </ClInclude>
+    <ClInclude Include="Sponza.h">
+      <Filter>JmxRCore\JmxRRT\Demo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="VoxelizationVS.hlsl">
+      <Filter>HLSL\SVO\Voxel</Filter>
+    </FxCompile>
+    <FxCompile Include="VoxelizationGS.hlsl">
+      <Filter>HLSL\SVO\Voxel</Filter>
+    </FxCompile>
+    <FxCompile Include="VoxelizationPS.hlsl">
+      <Filter>HLSL\SVO\Voxel</Filter>
+    </FxCompile>
+    <FxCompile Include="AllocOctree.hlsl">
+      <Filter>HLSL\SVO</Filter>
+    </FxCompile>
+    <FxCompile Include="FlagOctree.hlsl">
+      <Filter>HLSL\SVO</Filter>
+    </FxCompile>
+    <FxCompile Include="WriteLeafOctree.hlsl">
+      <Filter>HLSL\SVO</Filter>
+    </FxCompile>
+    <FxCompile Include="MipmapOctree.hlsl">
+      <Filter>HLSL\SVO</Filter>
+    </FxCompile>
+    <FxCompile Include="VisualSVOPS.hlsl">
+      <Filter>HLSL\SVO\Visual</Filter>
+    </FxCompile>
+    <FxCompile Include="VisualSVOVS.hlsl">
+      <Filter>HLSL\SVO\Visual</Filter>
+    </FxCompile>
+    <FxCompile Include="VisualSVOCS.hlsl">
+      <Filter>HLSL\SVO\Visual</Filter>
+    </FxCompile>
+    <FxCompile Include="cs.hlsl">
+      <Filter>HLSL\SVO\Visual</Filter>
+    </FxCompile>
+    <FxCompile Include="SponzaPS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="SponzaVS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="SponzaPSN.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

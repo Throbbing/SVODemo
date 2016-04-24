@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<scene name="MyScene">
+<node type="Camera" name="Ö÷Ïà»ú"  pos="50 100 50"  right="-1 0 0" up="0 1 0" look="0 0 -1" fov="90" ratio="1.3333" near="1.f" far="5000.f">
+</node>
+<node type="Mesh"  name="sponza.obj"  path="Mesh" mtl="Mesh/mtl" tex="Mesh/tex">
+</node>
+
+
+<node type="Light" method="Point"  value="0 400 0" ambient="0.3 0.3 0.3 0.3 " diffuse="0.7 0.7 0.7 1" specular="0.3 0.4 0.3 16" />
+<node type="Light" method="Point"  value="0 200 -100" ambient="0.1 0.1 0.1 0.1 " diffuse="0.3 0.3 0.3 1" specular="0.3 0.4 0.3 16" />
+<node type="Light" method="Point"  value="100 100 -100" ambient="0.1 0.1 0.1 0.1 " diffuse="0.3 0.3 0.3 1" specular="0.3 0.4 0.3 16" />
+<node type="Light" method="Point"  value="-100 100 -100" ambient="0.1 0.1 0.1 0.1 " diffuse="0.3 0.3 0.3 1" specular="0.3 0.4 0.3 16" />
+
+
+
+
+</scene>
