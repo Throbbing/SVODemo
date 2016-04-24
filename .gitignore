@@ -1,5 +1,7 @@
 /Release/*
 /Debug/*
+/Mesh/*
+/textures/*
 DeferredPS0.hlsl
 DeferredPS1.hlsl
 DeferredVS.hlsl
